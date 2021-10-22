@@ -4,6 +4,10 @@ uberButton.addEventListener("click", function() {
 
     var name = document.getElementById("name").value;
 
+    if (name == "") {
+        name = "Anonymous";
+    }
+
     var requestOptions = {
         method: 'GET',
         redirect: 'follow'
