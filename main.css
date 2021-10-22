@@ -72,10 +72,10 @@
 }
 
 .innerform {
-    padding: 12px;
+    padding: 17px;
     background-color: #fff;
     border-radius: 6px;
-    width: 350px;
+    width: 400px;
 }
 
 .innerform h6 {
@@ -127,6 +127,15 @@
     background-color: black !important;
     border-color: black !important;
     border-radius: 0 !important;
+}
+
+.deliveroo-main {
+    padding: 0px 10px;
+}
+
+.deliveroo-button {
+    background: #0cb !important;
+    font-weight: bolder !important;
 }
 
 
